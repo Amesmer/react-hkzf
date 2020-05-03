@@ -48,8 +48,8 @@ export default class Home extends React.Component {
         return tabItems.map(item => <TabBar.Item
             title={item.title}
             key={item.title}
-            icon={<i className={`icon ${item.icon}`} />}
-            selectedIcon={<i className={`icon ${item.icon}`} />}
+            icon={<i className={`iconfont ${item.icon}`} />}
+            selectedIcon={<i className={`iconfont ${item.icon}`} />}
             selected={this.state.selectedTab === item.path}
             onPress={() => {
                 this.setState({
