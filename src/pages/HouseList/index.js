@@ -1,7 +1,7 @@
 import React from 'react'
-
+import style from './index.module.scss'
 export default class HouseList extends React.Component {
     render(){
-        return <div>HouseList</div>
+        return <div className={style.container}> HouseList</div>
     }
 }

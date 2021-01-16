@@ -6,7 +6,7 @@ import profile from '../Profile'
 import index from '../index'
 import houselist from '../HouseList'
 // 导入自己的样式文件
-import './index.css'
+import './index.scss'
 // 导入tabBar
 import { TabBar } from 'antd-mobile';
 
